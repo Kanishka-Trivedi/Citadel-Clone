@@ -347,6 +347,53 @@ header{
     color: white;
 }
 
+.section8{
+    display: flex;
+    margin-bottom: 130px;
+}
+
+.scrol1{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: 1px solid rgba(5, 20, 35, .23);
+    border-right: 1px solid rgba(5, 20, 35, .23);
+}
+
+.scrol1 > h3 {
+    font-size: 19px;
+    color:  #68717a;
+    font-weight: 400;
+    margin-right: 100px;
+}
+
+.int{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.int > h1 {
+    font-size: 23px;
+    color: #08225a;
+    width: 75%;
+    margin-left: 25px;
+    font-weight: 400;
+}
+
+.scrol1 > img {
+    height: 300px;
+    width: 330px;
+    margin-top: 30px;
+}
+
+.scrol1 > img:hover {
+    transform: scale(1.1);
+}
+
 footer{
     background-color: #08225a;
     height: 440px;
@@ -395,3 +442,4 @@ footer{
      padding: 20px;
      font-size: 25px;
 }
+
